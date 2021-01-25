@@ -1,0 +1,228 @@
+
+
+
+materialPath: J:\Steam\steamapps\common\Day of Defeat Source\dod\materials
+Loading J:\Hammer\my maps\dod_gt_acid_arena_b1.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in j:\steam\steamapps\common\day of defeat source\dod\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 188 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing J:\Hammer\my maps\dod_gt_acid_arena_b1.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (309057 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 410 texinfos to 290
+Reduced 20 texdatas to 17 (309 bytes to 254)
+Writing J:\Hammer\my maps\dod_gt_acid_arena_b1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'J:\Hammer\my maps\dod_gt_acid_arena_b1.bsp', but we don't own that location. Allowing.
+Wrote ZIP buffer, estimated size 87004, actual size 86790
+0 seconds elapsed
+
+
+
+8 threads
+reading j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+reading j:\hammer\my maps\dod_gt_acid_arena_b1.prt
+  47 portalclusters
+  83 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1 visible clusters (0.06%)
+Total clusters visible: 1736
+Average clusters visible: 36
+Building PAS...
+Average clusters audible: 46
+visdatasize:944  compressed from 752
+writing j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'j:\hammer\my maps\dod_gt_acid_arena_b1.bsp', but we don't own that location. Allowing.
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+2640 faces
+1 degenerate faces
+166906 square feet [24034574.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2639 patches before subdivision
+22331 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2521269, max 860
+transfer lists:  19.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(179940, 55520, 152572)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(24474, 2716, 23932)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4297, 159, 5213)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(741, 10, 1049)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(150, 1, 274)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(30, 0, 63)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 0, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(2, 0, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0063 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 48 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                882/8192        10584/98304    (10.8%) 
+brushsides            8110/65536       64880/524288   (12.4%) 
+planes                4358/65536       87160/1310720  ( 6.6%) 
+vertexes              3621/65536       43452/786432   ( 5.5%) 
+nodes                  259/65536        8288/2097152  ( 0.4%) 
+texinfos               290/12288       20880/884736   ( 2.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2640/65536      147840/3670016  ( 4.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                 280/65536        8960/2097152  ( 0.4%) 
+leaffaces             2971/65536        5942/131072   ( 4.5%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            21413/512000      85652/2048000  ( 4.2%) 
+edges                12749/256000      50996/1024000  ( 5.0%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3162/65536        6324/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1585456/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]         944/16777216 ( 0.0%) 
+entdata               [variable]       14342/393216   ( 3.6%) 
+LDR ambient table      280/65536        1120/262144   ( 0.4%) 
+HDR ambient table      280/65536        1120/262144   ( 0.4%) 
+LDR leaf ambient      1052/65536       29456/1835008  ( 1.6%) 
+HDR leaf ambient       280/65536        7840/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86790/0        ( 0.0%) 
+physics               [variable]      309057/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 6410
+Writing j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+48 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+2640 faces
+1 degenerate faces
+166906 square feet [24034574.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+2639 patches before subdivision
+22331 patches after subdivision
+50 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 2521269, max 860
+transfer lists:  19.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(153587, 47126, 134381)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(20879, 2281, 21040)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(3677, 133, 4586)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(634, 8, 922)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(129, 1, 241)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(26, 0, 56)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(6, 0, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 0, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0067 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 48 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  20/1024          960/49152    ( 2.0%) 
+brushes                882/8192        10584/98304    (10.8%) 
+brushsides            8110/65536       64880/524288   (12.4%) 
+planes                4358/65536       87160/1310720  ( 6.6%) 
+vertexes              3621/65536       43452/786432   ( 5.5%) 
+nodes                  259/65536        8288/2097152  ( 0.4%) 
+texinfos               290/12288       20880/884736   ( 2.4%) 
+texdata                 17/2048          544/65536    ( 0.8%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 2640/65536      147840/3670016  ( 4.0%) 
+hdr faces             2640/65536      147840/3670016  ( 4.0%) 
+origfaces             2499/65536      139944/3670016  ( 3.8%) 
+leaves                 280/65536        8960/2097152  ( 0.4%) 
+leaffaces             2971/65536        5942/131072   ( 4.5%) 
+leafbrushes           1113/65536        2226/131072   ( 1.7%) 
+areas                    4/256            32/2048     ( 1.6%) 
+surfedges            21413/512000      85652/2048000  ( 4.2%) 
+edges                12749/256000      50996/1024000  ( 5.0%) 
+LDR worldlights         50/8192         4400/720896   ( 0.6%) 
+HDR worldlights         50/8192         4400/720896   ( 0.6%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            197/32768        1970/327680   ( 0.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3162/65536        6324/131072   ( 4.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1585456/0        ( 0.0%) 
+HDR lightdata         [variable]     1585456/0        ( 0.0%) 
+visdata               [variable]         944/16777216 ( 0.0%) 
+entdata               [variable]       14342/393216   ( 3.6%) 
+LDR ambient table      280/65536        1120/262144   ( 0.4%) 
+HDR ambient table      280/65536        1120/262144   ( 0.4%) 
+LDR leaf ambient      1052/65536       29456/1835008  ( 1.6%) 
+HDR leaf ambient      1050/65536       29400/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]       86790/0        ( 0.0%) 
+physics               [variable]      309057/4194304  ( 7.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 6410
+Writing j:\hammer\my maps\dod_gt_acid_arena_b1.bsp
+47 seconds elapsed
