@@ -1,0 +1,9 @@
+"dod_gt_acid_arena"
+{
+	"material" "overviews/dod_gt_acid_arena"
+	"pos_x" "-1391"
+	"pos_y" "1963"
+	"scale" "3.6"
+	"rotate" "0"
+	"zoom" "1"
+}
